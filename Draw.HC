@@ -24,7 +24,16 @@ U0 DrawMap(CDC *dc)
       I64 posY = (y * 24) - camOffset.y;
       switch(tile)
       {
-	case 1: GrBlot(dc, posX, posY, tex_Tile);
+	case 1: GrBlot(dc, posX, posY, tex_Tile); break;
+	case 2: GrBlot(dc, posX, posY, tex_BrickWall); break;
+	case 3: GrBlot(dc, posX, posY, tex_BrickWall_Door); break;
+	case 4: GrBlot(dc, posX, posY, tex_BrickWall_Window); break;
+	case 5: GrBlot(dc, posX, posY, tex_BrickWall_Roof); break;
+	case 6: GrBlot(dc, posX, posY, tex_Tile_Road_Left); break;
+	case 7: GrBlot(dc, posX, posY, tex_Tile_Road); break;
+	case 8: GrBlot(dc, posX, posY, tex_Tile_Road_Right); break;
+	case 9: GrBlot(dc, posX, posY, tex_Tile_Road_Hole); break;
+	case 10: GrBlot(dc, posX, posY, tex_Tile_Road_Hole); break;
       }
     }
   }
@@ -48,7 +57,7 @@ U0 DrawMap(CDC *dc)
 	case 8: GrBlot(dc, posX, posY, tex_Ent_QuestionHidden); break;
 	case 9: GrBlot(dc, posX, posY, tex_Ent_QuestionPowerup); break;
 	case 10: GrBlot(dc, posX, posY, tex_Ent_Coin); break;
-	
+	case 11: GrBlot(dc, posX, posY, tex_Ent_Endlevel); break;
 	
 	
       }
@@ -65,7 +74,7 @@ U0 DrawCursor(CDC *dc)
   dc->color=ROPF_DITHER+DKGRAY<<16+TRANSPARENT;
   I64 posX = cursor.pos.x - camOffset.x;
   I64 posY = cursor.pos.y - camOffset.y;
-  GrBlot(dc, posX, posY, tex_Cursor);
+  GrBlot(dc, posX, posY, tex_Cursor);
 }
 
 U0 DrawTileMenu(CDC *dc)

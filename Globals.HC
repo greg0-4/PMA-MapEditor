@@ -65,7 +65,15 @@ U0 InitTileItems()
 {
   NewTileItem(0, tex_Tile_NoTile);
   NewTileItem(1, tex_Tile);
-
+  NewTileItem(2, tex_BrickWall);
+  NewTileItem(3, tex_BrickWall_Door);
+  NewTileItem(4, tex_BrickWall_Window);
+  NewTileItem(5, tex_BrickWall_Roof);
+  NewTileItem(6, tex_Tile_Road_Left);
+  NewTileItem(7, tex_Tile_Road);
+  NewTileItem(8, tex_Tile_Road_Right);
+  NewTileItem(9, tex_Tile_Road_Hole);
+  NewTileItem(10, tex_Tile_Road_Hole_Open);
 
   NewTileItem(0, tex_Tile_NoTile, TRUE);
   NewTileItem(1, tex_Ent_Collider, TRUE);
@@ -78,6 +86,7 @@ U0 InitTileItems()
   NewTileItem(8, tex_Ent_QuestionHidden, TRUE);
   NewTileItem(9, tex_Ent_QuestionPowerup, TRUE);
   NewTileItem(10, tex_Ent_Coin, TRUE);
+  NewTileItem(11, tex_Ent_Endlevel, TRUE);
 }
 
 
@@ -112,4 +121,3 @@ U0 InitMapArrays()
     current_map.entArray[x + (height - 1) * width] = 1;
   }
 }
-

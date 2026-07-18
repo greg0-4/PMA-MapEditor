@@ -1,5 +1,5 @@
 #include "SpriteLoad.HC";
-#include "Globals.HC";
+#include "Globals.HC";
 #include "Forms.HC";
 
 #include "Update.HC";
@@ -82,7 +82,7 @@ U0 Main()
 	  break;
 	  case 'S': SaveFormFunc; break;
 	  case 'N': MapFormFunc; break;
-	  case 'L': LoadFormFunc; break;
+	  case 'L': LoadFormFunc; break;
 	  case 0:
 	  switch(input2.u8[0])
 	  {
