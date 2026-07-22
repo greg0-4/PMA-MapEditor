@@ -12,7 +12,22 @@ CDC *tex_Tile_Road = GRRead("Sprites/Tiles/Floor/TileRoad.GR");
 CDC *tex_Tile_Road_Left = GRRead("Sprites/Tiles/Floor/TileRoadLeft.GR");
 CDC *tex_Tile_Road_Right = GRRead("Sprites/Tiles/Floor/TileRoadRight.GR");
 CDC *tex_Tile_Road_Hole = GRRead("Sprites/Tiles/Floor/TileRoadHole.GR");
-CDC *tex_Tile_Road_Hole_Open = GRRead("Sprites/Tiles/Floor/TileRoadHoleOpen.GR");
+CDC *tex_Tile_Road_Hole_Open = GRRead("Sprites/Tiles/Floor/TileRoadHoleOpen.GR");
+
+
+CDC *tex_BrickWall_WaterL = GRRead("Sprites/Tiles/Building/Sewers/BrickWallWaterL.GR.Z");
+CDC *tex_BrickWall_WaterR = GRRead("Sprites/Tiles/Building/Sewers/BrickWallWaterR.GR.Z");
+
+CDC *tex_Tile_Water = GRRead("Sprites/Tiles/Floor/Sewers/TileWater.GR.Z");
+CDC *tex_Tile_Water_Left = GRRead("Sprites/Tiles/Floor/Sewers/TileWaterLeft.GR.Z");
+CDC *tex_Tile_Water_Right = GRRead("Sprites/Tiles/Floor/Sewers/TileWaterRight.GR.Z"); 
+
+CDC *tex_Tile_Sewer = GRRead("Sprites/Tiles/Floor/Sewers/Tile.GR.Z");
+
+CDC *tex_BrickHole_BL = GRRead("Sprites/Tiles/Building/Sewers/BrickHoleBL.GR.Z");
+CDC *tex_BrickHole_BR = GRRead("Sprites/Tiles/Building/Sewers/BrickHoleBR.GR.Z");
+CDC *tex_BrickHole_TL = GRRead("Sprites/Tiles/Building/Sewers/BrickHoleTL.GR.Z");
+CDC *tex_BrickHole_TR = GRRead("Sprites/Tiles/Building/Sewers/BrickHoleTR.GR.Z");
 
 CDC *tex_Tile_NoTile = GRRead("Sprites/Tiles/NoTile.GR.Z");
 
@@ -28,3 +43,6 @@ CDC *tex_Ent_QuestionPowerup = GRRead("Sprites/Entities/QuestionPower.GR.Z");
 CDC *tex_Ent_Coin = GRRead("Sprites/Entities/Coin.GR.Z");
 
 CDC *tex_Ent_Endlevel = GRRead("Sprites/Entities/LevelEnd.GR.Z");
+
+CDC *tex_Tile_Platform = GRRead("Sprites/Tiles/Platform.GR.Z");
+CDC *tex_Ent_Platform = GRRead("Sprites/Platform.GR.Z");

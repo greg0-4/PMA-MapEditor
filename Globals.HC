@@ -73,7 +73,17 @@ U0 InitTileItems()
   NewTileItem(7, tex_Tile_Road);
   NewTileItem(8, tex_Tile_Road_Right);
   NewTileItem(9, tex_Tile_Road_Hole);
-  NewTileItem(10, tex_Tile_Road_Hole_Open);
+  NewTileItem(10, tex_Tile_Road_Hole_Open);
+  NewTileItem(11, tex_BrickHole_TL);
+  NewTileItem(12, tex_BrickHole_TR);
+  NewTileItem(13, tex_BrickHole_BL);
+  NewTileItem(14, tex_BrickHole_BR);
+  NewTileItem(15, tex_BrickWall_WaterL);
+  NewTileItem(16, tex_BrickWall_WaterR);
+  NewTileItem(17, tex_Tile_Water_Left);
+  NewTileItem(18, tex_Tile_Water);
+  NewTileItem(19, tex_Tile_Water_Right);
+  NewTileItem(20, tex_Tile_Sewer);
 
   NewTileItem(0, tex_Tile_NoTile, TRUE);
   NewTileItem(1, tex_Ent_Collider, TRUE);
@@ -87,6 +97,7 @@ U0 InitTileItems()
   NewTileItem(9, tex_Ent_QuestionPowerup, TRUE);
   NewTileItem(10, tex_Ent_Coin, TRUE);
   NewTileItem(11, tex_Ent_Endlevel, TRUE);
+  NewTileItem(12, tex_Tile_Platform, TRUE);
 }
 
 
